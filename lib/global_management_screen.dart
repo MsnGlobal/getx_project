@@ -11,7 +11,7 @@ class GetXDemoScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('data'),
+        title: const Text('GETX'),
       ),
       body: Center(
           // ////getBuilder
@@ -69,7 +69,7 @@ class GetViewScreen extends GetView<GetxScreeenController> {
           const SizedBox(height: 100),
           ElevatedButton(
               onPressed: () {
-             Get.to(const ScreenB());
+                Get.to(const ScreenB());
                 //Get.to(ScreenB());
               },
               child: const Text('Go to next'))
