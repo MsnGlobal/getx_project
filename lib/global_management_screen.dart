@@ -11,7 +11,7 @@ class GetXDemoScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('GETX screen demo'),
+        title: const Text('GETX page'),
       ),
       body: Center(
           // ////getBuilder
